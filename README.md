@@ -15,19 +15,19 @@ OUTLINE:
         
 
 ## Scrape List of Topics from Github
-With the help of Java, the Jsoup library get requests to download the Github topic page
-Use Jsoup. parse() to parse the downloaded page into HTML
-convert HTML into table saw data frame
+    - With the help of Java, the Jsoup library get requests to download the Github topic page <br/>
+    - Use Jsoup. parse() to parse the downloaded page into HTML <br/>
+    - convert HTML into table saw data frame
 
 ## Scrape list of Repositories for each topic
-The data frame that we created above get the (topic URL, topic name) for which you want to extract repos
-again, requests to download page of a particular topic
- parse the download page
-Extracts lists of data (repo_name, username, repo URL, stars) from the page.
-convert it into tablesaw data frame
+    - The data frame that we created above get the (topic URL, topic name) for which you want to extract repos <br/>
+    - again, requests to download page of a particular topic <br/>
+    - parse the download page <br/>
+    - Extracts lists of data (repo_name, username, repo URL, stars) from the page.
+        convert it into tablesaw data frame
 
 ## Create CSV file for each Topic
-The data frame that we have created for each topic convert into csv file.
-Use csvWriter for creating csv files from each topic data frame
+    - The data frame that we have created for each topic convert into csv file. <br/>
+    - Use csvWriter for creating csv files from each topic data frame
 
 ###### ** In main function take input as folder path for storing the csv Files ** 
